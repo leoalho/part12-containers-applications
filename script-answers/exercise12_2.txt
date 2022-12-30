@@ -1,0 +1,210 @@
+Script started on 2022-12-30 23:18:49+02:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="104" LINES="49"]
+[?2004hsh-4.4$ exitcho "hello"sh-4.4$ [4Pcd leoalecho "hello"sh-4.4$ exit[K[Kdocker run -it ubuntu bash
+[?2004l[6n[6n[m[?25hUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+[?25l
+[48;1H6e3729cf69e0: Pulling fs layer                                                                          
+[?25h[?25l[48;1H[?25h6e3729cf69e0: Downloading  310.6kB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  621.9kB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  933.1kB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  1.244MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  1.555MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  1.866MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  2.177MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  2.489MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading    2.8MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  3.111MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  3.418MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   3.73MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  4.041MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  4.352MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  4.664MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  4.975MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  5.286MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  5.598MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  5.909MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   6.22MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  6.531MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  6.843MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  7.154MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  7.465MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  7.777MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  8.088MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  8.399MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  8.711MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  9.022MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  9.333MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  9.644MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  9.956MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  10.27MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  10.58MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   10.9MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  11.21MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  11.52MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  11.84MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  12.15MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  12.46MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  12.77MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  13.09MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   13.4MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  13.71MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  14.02MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  14.33MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  14.64MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  14.95MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  15.26MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  15.58MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  15.88MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   16.2MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  16.51MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  16.83MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  17.14MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  17.46MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  17.77MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  18.08MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  18.39MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   18.7MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  19.02MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  19.33MB/30.43MB[K
+[?25l[48;1H[K[?25h6e3729cf69e0: Downloading  19.64MB/30.43MB
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  19.95MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  20.27MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  20.58MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   20.9MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  21.21MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  21.52MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  21.83MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  22.14MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  22.45MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  22.76MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  23.08MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  23.39MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  23.71MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  24.02MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  24.33MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  24.64MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  24.95MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  25.26MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  25.57MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  25.89MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   26.2MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   26.5MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  26.81MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  27.13MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  27.44MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  27.75MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  28.06MB/30.43MB[K
+[?25l[48;1H[?25h[K6e3729cf69e0: Downloading  28.37MB/30.43MB
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  28.68MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  28.99MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading   29.3MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  29.61MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  29.93MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Downloading  30.24MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Download complete[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  327.7kB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  1.311MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  1.966MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  2.621MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  3.277MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting   4.26MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  5.571MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  6.554MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  8.192MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  8.847MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  10.16MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting   11.8MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  13.76MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  15.07MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  16.38MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  17.37MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  18.68MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  20.97MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  22.94MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  25.23MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  26.21MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  26.54MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  27.85MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  28.84MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  29.82MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Extracting  30.43MB/30.43MB[K
+[?25l[48;1H[?25h6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9
+Status: Downloaded newer image for ubuntu:latest
+[?2004hroot@74dd0fcf5fcd:/# ]0;root@74dd0fcf5fcd: /root@74dd0fcf5fcd:/#[K[1Cls[?2004l
+[36m[1mbin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[m
+[34m[1mboot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[m[K[?2004h
+root@74dd0fcf5fcd:/#[1C[?25l[8;49;103t[41;1HUnable to find image 'ubuntu:latest' locally[K
+latest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9[K
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25h[?25l[8;49;99t[41;1HUnable to find image 'ubuntu:latest' locally[K
+latest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9[K
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25h[?25l[8;49;90t[41;1HUnable to find image 'ubuntu:latest' locally[K
+latest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9[K
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25hroot@74dd0fcf5fcd:/#[K[1C[?25l[8;49;88t[41;1HUnable to find image 'ubuntu:latest' locally[K
+latest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9[K
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25h[?25l[8;49;85t[41;1HUnable to find image 'ubuntu:latest' locally[K
+latest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9      
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25h[?25l[8;49;81t[41;1HUnable to find image 'ubuntu:latest' locally[K
+latest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9  
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25hroot@74dd0fcf5fcd:/#[K[1C[?25l[8;49;79t[41;1Hlatest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9
+[K
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25h[?25l[8;49;77t[41;1Hlatest: Pulling from library/ubuntu[K
+6e3729cf69e0: Pull complete[K
+Digest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9[K
+Status: Downloaded newer image for ubuntu:latest[K
+root@74dd0fcf5fcd:/# ls[K[36m[1m
+bin[m   [34m[1mdev[m  [34m[1mhome[m  [36m[1mlib32[m  [36m[1mlibx32[m  [34m[1mmnt[m  [34m[1mproc[m  [34m[1mrun[m   [34m[1msrv[m  [30m[42mtmp[m  [34m[1mvar[K
+boot[m  [34m[1metc[m  [36m[1mlib[m   [36m[1mlib64[m  [34m[1mmedia[m   [34m[1mopt[m  [34m[1mroot[m  [36m[1msbin[m  [34m[1msys[m  [34m[1musr[K[m
+root@74dd0fcf5fcd:/#[K[1C[?25hroot@74dd0fcf5fcd:/#[K[1Ccd usr/src[?2004l[?2004h
+root@74dd0fcf5fcd:/usr/src#[1C]0;root@74dd0fcf5fcd: /usr/srcls[?2004l
+[?2004hroot@74dd0fcf5fcd:/usr/src# mkdir app[?2004l
+[?2004hroot@74dd0fcf5fcd:/usr/src# cd app[?2004l[?2004h
+root@74dd0fcf5fcd:/usr/src/app#[1C]0;root@74dd0fcf5fcd: /usr/src/apptouch index.js[?2004l
+[?2004hroot@74dd0fcf5fcd:/usr/src/app# exit[?2004l
+exit
+[?2004hsh-4.4$ exit
+[?2004lexit
+
+Script done on 2022-12-30 23:21:38+02:00 [COMMAND_EXIT_CODE="0"]

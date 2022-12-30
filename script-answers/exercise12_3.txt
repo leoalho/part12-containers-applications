@@ -1,0 +1,157 @@
+Script started on 2022-12-30 23:41:11+02:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="211" LINES="49"]
+[?2004hsh-4.4$ exitdocker run -it ubuntu bashsh-4.4$ exit[K    docker start -i gallant_gould
+[?2004l[6n[6n[m[?25h[?2004hroot@74dd0fcf5fcd:/# ]0;root@74dd0fcf5fcd: /root@74dd0fcf5fcd:/#[K[1C/usr/src/app/index.js[?25ln/usr/src/app/index.js[K[49;23H[?25h[?25la/usr/src/app/index.js[K[49;24H[?25h[?25ln/usr/src/app/index.js[K[49;25H[?25h[?25lo/usr/src/app/index.js[K[49;26H[?25h[?25l /usr/src/app/index.js[K[49;27H[?25h[?2004l
+[?2004h[22;0;0t[4l[?1h=[?1h=[?25l[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[211C[2J[7m[H  GNU nano 6.2                                                                                   /usr/src/app/index.js                                                                                             [K[27m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[97X[7m[97C[ Read 0 lines ][27m[K[7m
+^G[27m Help[10X[7m[10C^O[27m Write Out     [7m^W[27m Where Is      [7m^K[27m Cut[11X[7m[11C^T[27m Execute       [7m^C[27m Location      [7mM-U[27m Undo[9X[7m[9CM-A[27m Set Mark     [7mM-][27m To Bracket   [7mM-Q[27m Previous     [7m^B[27m Back[10X[7m[10C^Left[27m Prev Word[K[7m
+^X[27m Exit[10X[7m[10C^R[27m Read File     [7m^\[27m Replace       [7m^U[27m Paste[9X[7m[9C^J[27m Justify       [7m^/[27m Go To Line    [7mM-E[27m Redo[9X[7m[9CM-6[27m Copy[9X[7m[9C^Q[27m Where Was     [7mM-W[27m Next[9X[7m[9C^F[27m Forward       [7m^Right[27m Next Word        [2;1H[?25h[?25l[7m[1;120H*[27m
+c[?25honsole.log("Hello[42m [m[?25l[35m[1m[2;13H"Hello "[m[47;1H[K[2;21H[?25h[?25l[2;13H"Hello[42m [m[K[?25h World[?25l[35m[1m[2;13H"Hello World"[?25h[m)[?25l[7m[47;1HSave modified buffer?                                                                                                                                                                                              [K Y[27m Yes[K[7m
+ N[27m No  [7m[9C^C[27m Cancel[K[47;23H[?25h[7m
+^G[27m Help[7m[45CM-D[27m DOS Format[?25l[7m[47;1HFile Name to Write: /usr/src/app/index.js[48;105HM-A[27m Append[7m[42CM-B[27m Backup File[7m
+^C[27m Cancel[7C[9X[7m[36CM-M[27m Mac Format[7m[38CM-P[27m Prepend[7m[41C^T[27m Browse[47;42H[?25h[?25l[23;0;0t[?1l>[?2004l[?2004h[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+root@74dd0fcf5fcd:/# nano /usr/src/app/index.js[K
+root@74dd0fcf5fcd:/#[K[1C[?25hexit[?2004l
+exit
+[?2004hsh-4.4$ exit
+[?2004lexit
+
+Script done on 2022-12-30 23:42:41+02:00 [COMMAND_EXIT_CODE="0"]
