@@ -1,0 +1,48 @@
+Script started on 2023-01-04 15:56:38+02:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="171" LINES="30"]
+[?2004hsh-4.4$ docker exec -it todo-backend_redis_1
+[?2004l[6n[6n[m[?25h"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Run a command in a running container
+[?2004hsh-4.4$ docker exec -it todo-backend_redis_1 bash
+[?2004l[6n[m[?25h[?2004hroot@d93e453c827e:/data# [?25l[8;49;104troot@d93e453c827e:/data#[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[30;26H[?25hroot@d93e453c827e:/data#[K[1Credis-cli[?2004l
+127.0.0.1:6379> 127.0.0.1:6379> K[K127.0.0.1:6379> KE[K127.0.0.1:6379> KEY[K[?25l127.0.0.1:6379> KEYS [90mpattern[K[31;21H[?25h[m[?25l127.0.0.1:6379> KEYS [90mpattern[K[31;22H[?25h[m127.0.0.1:6379> KEYS *[K127.0.0.1:6379> KEYS *[K
+1) "added_todos"
+127.0.0.1:6379> 127.0.0.1:6379> G[K127.0.0.1:6379> GE[K[?25l127.0.0.1:6379> GET [90mkey[K[33;20H[?25h[m[?25l127.0.0.1:6379> GET [90mkey[K[33;21H[?25h[m127.0.0.1:6379> GET "[K127.0.0.1:6379> GET "a[K127.0.0.1:6379> GET "ad[K127.0.0.1:6379> GET "add[K127.0.0.1:6379> GET "adde[K127.0.0.1:6379> GET "added[K127.0.0.1:6379> GET "added_[K127.0.0.1:6379> GET "added_t[K127.0.0.1:6379> GET "added_to[K127.0.0.1:6379> GET "added_tod[K127.0.0.1:6379> GET "added_todo[K127.0.0.1:6379> GET "added_todos[K127.0.0.1:6379> GET "added_todos"[K127.0.0.1:6379> GET "added_todos"[K
+"2"
+127.0.0.1:6379> 127.0.0.1:6379> S[K127.0.0.1:6379> SE[K127.0.0.1:6379> SET [90mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix[35;20H[m127.0.0.1:6379> SET [90mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix[35;21H[m127.0.0.1:6379> SET "[K127.0.0.1:6379> SET "a[K127.0.0.1:6379> SET "ad[K127.0.0.1:6379> SET "add[K127.0.0.1:6379> SET "adde[K127.0.0.1:6379> SET "added[K127.0.0.1:6379> SET "added_[K127.0.0.1:6379> SET "added_t[K127.0.0.1:6379> SET "added_to[K127.0.0.1:6379> SET "added_tod[K127.0.0.1:6379> SET "added_todo[K127.0.0.1:6379> SET "added_todos[K127.0.0.1:6379> SET "added_todos" [90mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds[35;34H[m127.0.0.1:6379> SET "added_todos" [90mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds[35;35H[m127.0.0.1:6379> SET "added_todos" 9 [90m[NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXA[35;36H[m127.0.0.1:6379> SET "added_todos" 90 [90m[NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PX[35;37H[m127.0.0.1:6379> SET "added_todos" 900 [90m[NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|P[35;38H[m127.0.0.1:6379> SET "added_todos" 9001 [90m[NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|[35;39H[m127.0.0.1:6379> SET "added_todos" 9001[K
+OK
+127.0.0.1:6379> 127.0.0.1:6379> D[K127.0.0.1:6379> DE[K[?25l127.0.0.1:6379> DEL [90mkey [key ...][K[37;20H[?25h[m[?25l127.0.0.1:6379> DEL [90mkey [key ...][K[37;21H[?25h[m127.0.0.1:6379> DEL "[K127.0.0.1:6379> DEL "a[K127.0.0.1:6379> DEL "ad[K127.0.0.1:6379> DEL "add[K127.0.0.1:6379> DEL "adde[K127.0.0.1:6379> DEL "added[K127.0.0.1:6379> DEL "added_[K127.0.0.1:6379> DEL "added_t[K127.0.0.1:6379> DEL "added_to[K127.0.0.1:6379> DEL "added_tod[K127.0.0.1:6379> DEL "added_todo[K127.0.0.1:6379> DEL "added_todos[K[?25l127.0.0.1:6379> DEL "added_todos" [90m[key ...][K[37;34H[?25h[m127.0.0.1:6379> DEL "added_todos"[K
+(integer) 1
+127.0.0.1:6379> 
+[?2004hroot@d93e453c827e:/data# [?2004l[?2004h[?2004l^C
+[?2004hroot@d93e453c827e:/data# [?2004l[?2004h[?2004l[?2004h^C
+root@d93e453c827e:/data# quit[?2004l
+[?2004hbash: quit: command not found
+root@d93e453c827e:/data# exit[?2004l
+exit
+[?2004hsh-4.4$ exit
+[?2004lexit
+
+Script done on 2023-01-04 16:03:38+02:00 [COMMAND_EXIT_CODE="127"]

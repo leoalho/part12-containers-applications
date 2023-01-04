@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
   })
   let todos = await redis.getAsync("added_todos")
   if (!todos){
-    todos = 1
+    todos = 0
   }
   todos = parseInt(todos)
   redis.setAsync("added_todos", todos+1)
