@@ -1,0 +1,136 @@
+Script started on 2023-01-04 00:27:42+02:00 [TERM="xterm-256color" TTY="/dev/cons0" COLUMNS="176" LINES="30"]
+[?2004hsh-4.4$ docker exec -it todo_ba   -backend_mongo_1
+[?2004l[6n[6n[m[?25h"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Run a command in a running container
+[?2004hsh-4.4$ docker exec -it todo-backend_mongo_1                        --help
+[?2004l[6n[m[?25h
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Run a command in a running container
+
+Options:
+  -d, --detach               Detached mode: run command in the background
+      --detach-keys string   Override the key sequence for detaching a
+                             container
+  -e, --env list             Set environment variables
+      --env-file list        Read in a file of environment variables
+  -i, --interactive          Keep STDIN open even if not attached
+      --privileged           Give extended privileges to the command
+  -t, --tty                  Allocate a pseudo-TTY
+  -u, --user string          Username or UID (format:
+                             <name|uid>[:<group|gid>])
+  -w, --workdir string       Working directory inside the container
+[?2004hsh-4.4$ docker exec --helpit todo-backend_mongo_1 bash
+[?2004l[6n[m[?25hroot@607e8da446b2:/# [8;30;174troot@607e8da446b2:/#[K[1C[8;30;159troot@607e8da446b2:/#[K[1C[8;30;130troot@607e8da446b2:/#[K[1C[8;30;96troot@607e8da446b2:/#[K[1Croot@607e8da446b2:/#[K[1C[8;30;79troot@607e8da446b2:/#[K[1C[8;30;76troot@607e8da446b2:/#[K[1Croot@607e8da446b2:/#[K[1Cmongosh -u root -p example
+]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:[1C63b4b104a2b79162b0a5aac0
+[32m[1m[mConnecting to:[32m[1m[10Cmongodb://<credentials>@127.0.0.1:27017/?directConne[m
+[32m[1m[29;76Hection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1[22m[K[m
+Using MongoDB:[10C6.0.3
+[33m[1mUsing Mongosh[m:          1.6.1[K
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[22m[K
+
+
+To help improve our products, anonymous usage data is collected and sent to 
+[29;76H MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).        
+You can opt-out by running the [1mdisableTelemetry()[22m command.[K
+
+[K[33m[1m------[m
+   [33m[1mThe server generated these startup warnings when booting[m[K
+   2023-01-03T16:03:40.944+00:00: /sys/kernel/mm/transparent_hugepage/enable
+[29;76Hed is 'always'. We suggest setting it to 'never'
+   2023-01-03T16:03:40.944+00:00: vm.max_map_count is too low
+[33m[1m------[m[K
+
+[33m[1m------[m
+   Enable MongoDB's free cloud-based monitoring service, which will then rec
+[29;76Hceive and display
+   metrics about your deployment (disk utilization, CPU, operation statistic
+[29;76Hcs, etc).
+
+   The monitoring data will be available on a MongoDB website with a unique 
+[29;76H URL accessible to you
+   and anyone you share the URL with. MongoDB may use this information to ma
+[29;76Hake product
+   improvements and to suggest MongoDB products and deployment options to yo
+[29;76Hou.
+
+   To enable free monitoring, run the following command: db.enableFreeMonito
+[29;76Horing()
+   To permanently disable this reminder, run the following command: db.disab
+[29;76HbleFreeMonitoring()
+[33m[1m------[m[K
+
+[Ktest> show dbs
+[1madmin[22m         100.00 KiB
+[1mconfig[22m         60.00 KiB[K
+[1mlocal[22m          72.00 KiB[K
+[1mthe_database[22m   40.00 KiB[K
+test>[1Cuse the_database
+switched to db the_database
+the_database>[1Cshow collections
+[1mtodos[22m
+the_database> db.todos.find()
+[
+  {
+    _id: ObjectId("63b451c1f734461cf951d099"),
+    text: [32m'Write code'[m,[K
+    done: [33mtrue[K[m
+  },
+  {
+    _id: ObjectId("63b451c1f734461cf951d09a"),
+    text: [32m'Learn about containers'[m,[K
+    done: [33mfalse[K[m
+  }
+]
+the_database>[1Cdb.todos.insertOne({text[?25l[33m[30;35Htext[m:[?25h Ithe_database> db.todos.insertOne({[33mtext[m:[K[1C[32m"[mthe_database> db.todos.insertOne({[33mtext[m:[K[1C[32m'[m[32mI[m[32mn[m[32mc[m[32mr[m[32me[m[32ma[m[32ms[m[32me[m [32mt[m[32mh[m[32me[m [32mn[m[32mu[m[32mm[m[32mb[m[32me[m[32mr[m [32mo[m[32mf[m [32mt[m[32mo[m[32mo[m[32ml[m[32ms[m [32mi[m[32mn[m [32mm[m[32my[m[Kthe_database> db.todos.insertOne({[33mtext[m: [32m'Increase the number of tools in my [m
+[32m[29;76H [m
+[32mt[m[32mo[m[32mo[m[32ml[m[32mb[m[32me[m[32ml[m[32mt[m[32m'[m, d[36mdo[m[?25l[30;12Hdon[?25he[?25l[33m[30;12Hdone[m:[?25h fals[?25l[33m[30;18Hfalse[?25h[m][?25l[29;1H[K
+[K[29;1H[?25hthe_database> db.todos.insertOne({[33mtext[m: [32m'Increase the number of tools in my toolbelt'[m, [33mdone[m: [33mfalse[m})
+{
+  acknowledged: [33mtrue[m,[K
+  insertedId: ObjectId("63b4b19b17c4ce96545ef404")
+}
+the_database> [K[32m[mthe_database> db.todos.insertOne({[33mtext[m: [32m'Increase the number of tools in my [m
+[32m[29;76H toolbelt'[m, [33mdone[m: [33mfalse[m})[K[?25l[29;1Hthe_database> db.todos.find()[K
+[K[29;30H[?25h
+[
+  {
+    _id: ObjectId("63b451c1f734461cf951d099"),
+    text: [32m'Write code'[m,[K
+    done: [33mtrue[K[m
+  },
+  {
+    _id: ObjectId("63b451c1f734461cf951d09a"),
+    text: [32m'Learn about containers'[m,[K
+    done: [33mfalse[K[m
+  },
+  {
+    _id: ObjectId("63b4b19b17c4ce96545ef404"),
+    text: [32m'Increase the number of tools in my toolbelt'[m,[K
+    done: [33mfalse[K[m
+  }
+]
+the_database>[1C
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+the_database>[K[1C
+root@607e8da446b2:/# ^C
+root@607e8da446b2:/#[1C^C
+root@607e8da446b2:/#[1Cexit
+exit
+[?2004hsh-4.4$ script
+[?2004lScript started, file is typescript
+[?2004hsh-4.4$ exit
+[?2004lexit
+Script done, file is typescript
+[?2004hsh-4.4$ ls
+[?2004lexercise12_1.txt  exercise12_3.txt  exercise12_8.txt
+exercise12_2.txt  exercise12_4.txt  typescript
+[?2004hsh-4.4$ exot  it
+[?2004lexit
+
+Script done on 2023-01-04 00:53:49+02:00 [COMMAND_EXIT_CODE="0"]
