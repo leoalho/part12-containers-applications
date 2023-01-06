@@ -6,8 +6,6 @@ COPY . .
 
 RUN npm ci
 
-ENV REACT_APP_BACKEND_URL=http://192.168.56.1:3000
-
 RUN CI=true npm test
 
 RUN npm run build
