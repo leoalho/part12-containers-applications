@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  server:
+    image: blogbackend
+    build:
+      context: ./backend
+      dockerfile: dev.Dockerfile
+    ports:
+      - 3003:3003
+    volumes:
+      - ./backend:/usr/src/app
+  app:
+    image: blogfrontend
+    build:
+      context: ./frontend
+      dockerfile: dev.Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend:/usr/src/app
