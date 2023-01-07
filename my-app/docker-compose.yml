@@ -5,9 +5,13 @@ services:
     image: blogbackendproduction
     build: ./backend
     volumes:
-      - ./todo-backend:/usr/src/app
+      - ./backend:/usr/src/app
+    ports:
+      - 3003:3003
   app:
     image: blogfrontendproduction
     build: ./frontend
     volumes:
-      - ./todo-frontend:/usr/src/app
+      - ./frontend:/usr/src/app
+    ports:
+      - 3000:3000
